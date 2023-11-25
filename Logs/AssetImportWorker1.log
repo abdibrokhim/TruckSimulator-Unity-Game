@@ -1,0 +1,933 @@
+Unity Editor version:    2022.3.13f1 (5f90a5ebde0f)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.1.1 (Build 23B81)
+Darwin version:          23.1.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/abdibrokhim/UnityProjects/TruckSimulator
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+58525
+Successfully changed project path to: /Users/abdibrokhim/UnityProjects/TruckSimulator
+/Users/abdibrokhim/UnityProjects/TruckSimulator
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8077647552] Host "[IP] 192.168.100.48 [Port] 0 [Flags] 2 [Guid] 2997645219 [EditorId] 2997645219 [Version] 1048832 [Id] OSXEditor(0,Ibrohims-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8077647552] Host "[IP] 192.168.100.48 [Port] 0 [Flags] 2 [Guid] 2997645219 [EditorId] 2997645219 [Version] 1048832 [Id] OSXEditor(0,Ibrohims-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 21.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/abdibrokhim/UnityProjects/TruckSimulator/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56485
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003787 seconds.
+- Loaded All Assemblies, in  0.378 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.224 seconds
+Domain Reload Profiling: 602ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (145ms)
+		LoadAssemblies (139ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (142ms)
+				TypeCache.ScanAssembly (128ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (224ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (167ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (113ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.556 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.794 seconds
+Domain Reload Profiling: 1351ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (365ms)
+		LoadAssemblies (228ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (187ms)
+			TypeCache.Refresh (169ms)
+				TypeCache.ScanAssembly (152ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (794ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (641ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (557ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3595 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (51.8 KB). Loaded Objects now: 4086.
+Memory consumption went from 157.3 MB to 157.3 MB.
+Total: 4.025000 ms (FindLiveObjects: 0.144125 ms CreateObjectMapping: 0.064917 ms MarkObjects: 3.700541 ms  DeleteObjects: 0.114708 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18833.506795 seconds.
+  path: Assets/RealisticCarControllerV3/Documentations/Realistic Car Controller AI.pdf
+  artifactKey: Guid(1c25d5398ab3daf46b3cca3fca6ca55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Documentations/Realistic Car Controller AI.pdf using Guid(1c25d5398ab3daf46b3cca3fca6ca55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee5879dd6971db7f877b2f91dea6059') in 0.011372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/RealisticCarControllerV3/Documentations/Realistic Car Controller API.pdf
+  artifactKey: Guid(0a685daec938eb349872072e406079b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Documentations/Realistic Car Controller API.pdf using Guid(0a685daec938eb349872072e406079b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778887968fcfe377976810200bf1784e') in 0.000580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/RealisticCarControllerV3/Documentations/Realistic Car Controller.pdf
+  artifactKey: Guid(5e251eb5432e5cc4897942bf4e6419cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Documentations/Realistic Car Controller.pdf using Guid(5e251eb5432e5cc4897942bf4e6419cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21fbc4d4749c810b33521687498ca1f') in 0.000503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.109109 seconds.
+  path: Assets/RealisticCarControllerV3/Documentations/Realistic Car Controller Enter Exit (BCG Shared Assets).pdf
+  artifactKey: Guid(6e7c40e0db4cd8e4cb064cdda466e1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Documentations/Realistic Car Controller Enter Exit (BCG Shared Assets).pdf using Guid(6e7c40e0db4cd8e4cb064cdda466e1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1806e187373652b3fd4524a8c4d96f4') in 0.000710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 828.957378 seconds.
+  path: Assets/RealisticCarControllerV3/Models/Model_Skyline by BUMSTRUM.fbx
+  artifactKey: Guid(55ad9e52dcdf4e14ab18b5144308bfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Models/Model_Skyline by BUMSTRUM.fbx using Guid(55ad9e52dcdf4e14ab18b5144308bfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c420a77ec80b7e25917495a6c41ef7') in 0.132865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/RealisticCarControllerV3/Models/Road.FBX
+  artifactKey: Guid(8afe7dd398d71f14b80cf97af9b95213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Models/Road.FBX using Guid(8afe7dd398d71f14b80cf97af9b95213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ded25decfb4806d1647331016365ee') in 0.048985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/RealisticCarControllerV3/Models/Road.prefab
+  artifactKey: Guid(602d6f5b689177f428a7e147bcf8d9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Models/Road.prefab using Guid(602d6f5b689177f428a7e147bcf8d9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca42737643f67ac710e29276d599fa51') in 0.006188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 15.466601 seconds.
+  path: Assets/RealisticCarControllerV3/Fixed Meshes/Jeep/Right Door(Clone).mesh
+  artifactKey: Guid(24c9df4b23c3bb646a83211ed84c6210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Fixed Meshes/Jeep/Right Door(Clone).mesh using Guid(24c9df4b23c3bb646a83211ed84c6210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c922a7fed293de869989dae3e4c90cb') in 0.010099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.642788 seconds.
+  path: Assets/RealisticCarControllerV3/Fixed Meshes/Pickup/Right Door(Clone).mesh
+  artifactKey: Guid(0d8d498eb1c6da54e941c9d96451d7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Fixed Meshes/Pickup/Right Door(Clone).mesh using Guid(0d8d498eb1c6da54e941c9d96451d7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b01ed9255322c078594fe68725c2042') in 0.009338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x286593000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.409 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.405 seconds
+Domain Reload Profiling: 1814ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (198ms)
+		LoadAssemblies (229ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1405ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (834ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (728ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3586 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 4133.
+Memory consumption went from 168.8 MB to 168.8 MB.
+Total: 4.950792 ms (FindLiveObjects: 0.207417 ms CreateObjectMapping: 0.091750 ms MarkObjects: 4.585834 ms  DeleteObjects: 0.064750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f0a3000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.371 seconds
+Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.133 seconds
+Domain Reload Profiling: 1505ms
+	BeginReloadAssembly (121ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (178ms)
+		LoadAssemblies (210ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1134ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (613ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (508ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3587 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 4136.
+Memory consumption went from 179.4 MB to 179.3 MB.
+Total: 4.338667 ms (FindLiveObjects: 0.184208 ms CreateObjectMapping: 0.077958 ms MarkObjects: 4.030083 ms  DeleteObjects: 0.045875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1787.484831 seconds.
+  path: Assets/RealisticCarControllerV3/Prefabs/BrakeLight.prefab
+  artifactKey: Guid(40648ef4ebef26d4c9cc0663c2f08e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Prefabs/BrakeLight.prefab using Guid(40648ef4ebef26d4c9cc0663c2f08e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc2b419c196e7d75eade59862f93e2a') in 0.032847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/RealisticCarControllerV3/Prefabs/LightTrailer.prefab
+  artifactKey: Guid(707887b20c5d959439a876fea0fb72af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Prefabs/LightTrailer.prefab using Guid(707887b20c5d959439a876fea0fb72af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ad09d1858073f9d7f64a324977ee8d') in 0.031678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/RealisticCarControllerV3/Prefabs/RCCSkidmarks_Sand.prefab
+  artifactKey: Guid(d9297d0c600831349ab30b1c051467f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Prefabs/RCCSkidmarks_Sand.prefab using Guid(d9297d0c600831349ab30b1c051467f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8cf12f80421e582f05c9227dd344bfd') in 0.001795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/RealisticCarControllerV3/Prefabs/RCCSkidmarks_Asphalt.prefab
+  artifactKey: Guid(f9bbf9e575fb2714aa217acfd7d02f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Prefabs/RCCSkidmarks_Asphalt.prefab using Guid(f9bbf9e575fb2714aa217acfd7d02f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396f039a4f7ce40c177960f486559d6a') in 0.001249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/RealisticCarControllerV3/Prefabs/HeadLight.prefab
+  artifactKey: Guid(660ec4b1fd79fa74096f0ab9e6cbd2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Prefabs/HeadLight.prefab using Guid(660ec4b1fd79fa74096f0ab9e6cbd2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3c9cbcce1966e42876aa8e524b72a0') in 0.001152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/RealisticCarControllerV3/Prefabs/Mirrors.prefab
+  artifactKey: Guid(42ab1ab32651fc74dad3e9cedf0b5270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Prefabs/Mirrors.prefab using Guid(42ab1ab32651fc74dad3e9cedf0b5270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54c393d9a725398059f9f2c183a09e8') in 0.001349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/RealisticCarControllerV3/Prefabs/Small Trailer.prefab
+  artifactKey: Guid(6200562e04e79c147a4a5139c2c6cc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Prefabs/Small Trailer.prefab using Guid(6200562e04e79c147a4a5139c2c6cc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd229ceb390055b06645f41e0980ce0') in 0.871902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 77
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/RealisticCarControllerV3/Prefabs/Cinematic Camera System.prefab
+  artifactKey: Guid(330409232e97fd84c9b2e696d6de0bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Prefabs/Cinematic Camera System.prefab using Guid(330409232e97fd84c9b2e696d6de0bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8103612e9ebd9d56a4e6bd8f4d43d291') in 0.002415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/RealisticCarControllerV3/Prefabs/GuardRail.prefab
+  artifactKey: Guid(9311cdd7c5885e44f831eee92a73d134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Prefabs/GuardRail.prefab using Guid(9311cdd7c5885e44f831eee92a73d134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088ce4ecff94a8f7d10dd1630e028b14') in 0.008002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/RealisticCarControllerV3/Prefabs/HoodCamera.prefab
+  artifactKey: Guid(a28e2d33ee4eec642be5568debd291ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Prefabs/HoodCamera.prefab using Guid(a28e2d33ee4eec642be5568debd291ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4f8795353e57b555890f2307c4bee8') in 0.001908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/RealisticCarControllerV3/Prefabs/SpikeStrip.prefab
+  artifactKey: Guid(6531e1be15fef0948b3410c9f4d28bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Prefabs/SpikeStrip.prefab using Guid(6531e1be15fef0948b3410c9f4d28bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354c9ed9341afe08bf9bef2582264d5e') in 0.007036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/RealisticCarControllerV3/Prefabs/DustStorm.prefab
+  artifactKey: Guid(05f373fd4e7b8cf4486724ef34a93d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Prefabs/DustStorm.prefab using Guid(05f373fd4e7b8cf4486724ef34a93d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a230da9644d85672ec82614379b99edf') in 0.057112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/RealisticCarControllerV3/Prefabs/PoliceSiren.prefab
+  artifactKey: Guid(6d76627395543314e9689aa816f0e1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Prefabs/PoliceSiren.prefab using Guid(6d76627395543314e9689aa816f0e1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a52a305b2925ff5e2cd74c8f9e087bd') in 0.303555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/RealisticCarControllerV3/Prefabs/ChassisJoint.prefab
+  artifactKey: Guid(a7e7b1406cded0e4cb52224eb5dc2d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Prefabs/ChassisJoint.prefab using Guid(a7e7b1406cded0e4cb52224eb5dc2d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3ea63cad87a77377e0ebcb8514f5cb') in 0.001630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/RealisticCarControllerV3/Prefabs/ReverseLight.prefab
+  artifactKey: Guid(188c477ab444228409c4a246c02a86bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Prefabs/ReverseLight.prefab using Guid(188c477ab444228409c4a246c02a86bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27555702a7d8b712a89b948a78259ec') in 0.001770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/RealisticCarControllerV3/Prefabs/RCCCamera.prefab
+  artifactKey: Guid(9f32ea4a11500b344ae05427bdc21e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Prefabs/RCCCamera.prefab using Guid(9f32ea4a11500b344ae05427bdc21e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c2163c908e7855abf86c64bf336533') in 0.003038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/RealisticCarControllerV3/Prefabs/RCCSkidmarks_Grass.prefab
+  artifactKey: Guid(5c9a2e5b00887f64289ea27975f85fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Prefabs/RCCSkidmarks_Grass.prefab using Guid(5c9a2e5b00887f64289ea27975f85fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bef122d49ae2a58d9fa9b4c0742d464') in 0.001499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/RealisticCarControllerV3/Prefabs/RCCSkidmarksManager.prefab
+  artifactKey: Guid(a107dc7aa77e84f4d8cf9888def4fe64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Prefabs/RCCSkidmarksManager.prefab using Guid(a107dc7aa77e84f4d8cf9888def4fe64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06cf94947411cf1a38593e86858f3c67') in 0.001807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 157.474609 seconds.
+  path: Assets/RealisticCarControllerV3/Models/Vehicles/Trailer2/Trailer.prefab
+  artifactKey: Guid(066a76ba5232ed643af1b16ad828e24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Models/Vehicles/Trailer2/Trailer.prefab using Guid(066a76ba5232ed643af1b16ad828e24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5109400e8a704d71b60c877b83c245') in 0.019001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 105
+========================================================================
+Received Import Request.
+  Time since last request: 18.637373 seconds.
+  path: Assets/RealisticCarControllerV3/Models/Vehicles/Trailer2/Tex/Wheel_N.png
+  artifactKey: Guid(64458833a4aac514886f0d0e3ecf9e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Models/Vehicles/Trailer2/Tex/Wheel_N.png using Guid(64458833a4aac514886f0d0e3ecf9e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6546cf9e36256853a90ae35cc15ed4e2') in 0.088605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.282975 seconds.
+  path: Assets/RealisticCarControllerV3/Models/Vehicles/Trailer2/Mat/Trailer_Base.mat
+  artifactKey: Guid(6693315f5cea059408d18e022a3c4536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Models/Vehicles/Trailer2/Mat/Trailer_Base.mat using Guid(6693315f5cea059408d18e022a3c4536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987a4b66a586d082daa3149fd3cecb14') in 0.016821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/RealisticCarControllerV3/Models/Vehicles/Trailer2/Mat/Wheel.mat
+  artifactKey: Guid(5cb3e7defcb66ea4588a9a49977a6691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Models/Vehicles/Trailer2/Mat/Wheel.mat using Guid(5cb3e7defcb66ea4588a9a49977a6691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5c4fb0235a72f47a2cbdb5ac1e481d') in 0.248295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 87.771006 seconds.
+  path: Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Mat/Truck_Chrome.mat
+  artifactKey: Guid(7d11d68798e58f7429f99fba87409069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Mat/Truck_Chrome.mat using Guid(7d11d68798e58f7429f99fba87409069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf3d0fd6acf070e2e1325dc391feb2c') in 0.007324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Mat/Truck_Stripes.mat
+  artifactKey: Guid(e9312ab85e8c4b743a1172654a943416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Mat/Truck_Stripes.mat using Guid(e9312ab85e8c4b743a1172654a943416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e0ebf5107c303fb1e4500699eed5de') in 0.005578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Mat/Truck_Lights_Headlight.mat
+  artifactKey: Guid(363edeb2a6f6794408874bc95d342e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Mat/Truck_Lights_Headlight.mat using Guid(363edeb2a6f6794408874bc95d342e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b2067183ed1475637c04439c775bf1') in 0.005238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Mat/Truck_Tyre.mat
+  artifactKey: Guid(3d7089f1b7fee704d978c16b25f38f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Mat/Truck_Tyre.mat using Guid(3d7089f1b7fee704d978c16b25f38f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91130481b96bfddc6d9994dce6b5a7d3') in 0.007825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Mat/Truck_Windows.mat
+  artifactKey: Guid(553fb92c95a217f49a80cf2e1cb1708d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Mat/Truck_Windows.mat using Guid(553fb92c95a217f49a80cf2e1cb1708d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca45a262d2182680d0eff599f2787b5') in 0.004704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Mat/Truck_Lights_Brake.mat
+  artifactKey: Guid(5ee47b56d2ada0e428a59fde6bcacc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Mat/Truck_Lights_Brake.mat using Guid(5ee47b56d2ada0e428a59fde6bcacc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a154d2131e5dfc647bf617f329dea88') in 0.005222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 58.123214 seconds.
+  path: Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Single_detailed_truck/Prefabs/Truck.prefab
+  artifactKey: Guid(b70eb1cf1be37564f8063fba2095584b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Single_detailed_truck/Prefabs/Truck.prefab using Guid(b70eb1cf1be37564f8063fba2095584b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4dbe06c26b491ad7678499820ff5cc') in 0.016044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 16.868106 seconds.
+  path: Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Single_detailed_truck/Materials/trailer_color_03.mat
+  artifactKey: Guid(ee6cd9637c7d04a0b8f74bd487646c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Single_detailed_truck/Materials/trailer_color_03.mat using Guid(ee6cd9637c7d04a0b8f74bd487646c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79a74386025fa74dde0225b3954981f') in 0.011136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Single_detailed_truck/Materials/truck_color_01.mat
+  artifactKey: Guid(8810374a4eeda40328a89cdb0c250e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Single_detailed_truck/Materials/truck_color_01.mat using Guid(8810374a4eeda40328a89cdb0c250e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8fca79a9c91e6d7b5b4e82f6194fdf') in 0.008013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 31.582661 seconds.
+  path: Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Single_detailed_truck/3dobjects/truck.fbx
+  artifactKey: Guid(9da17e46af819d046b9cbf7728de49a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Single_detailed_truck/3dobjects/truck.fbx using Guid(9da17e46af819d046b9cbf7728de49a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5deec261c98aee45e837791a635386f') in 0.061174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 5.843104 seconds.
+  path: Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Single_detailed_truck/3dobjects/Materials/trailer-alu.mat
+  artifactKey: Guid(0fc1b1b9b2d808048986fee4baf8df00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Single_detailed_truck/3dobjects/Materials/trailer-alu.mat using Guid(0fc1b1b9b2d808048986fee4baf8df00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d15362577914914275f72f55d0ef6b4') in 0.008662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Single_detailed_truck/3dobjects/Materials/trailer-plastic.mat
+  artifactKey: Guid(f88f27dccb419864d88700c28c231c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Single_detailed_truck/3dobjects/Materials/trailer-plastic.mat using Guid(f88f27dccb419864d88700c28c231c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c6326961c284c286cb924819a42c6b') in 0.009126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Single_detailed_truck/3dobjects/Materials/trailer-trailer_main_color.mat
+  artifactKey: Guid(b7d51ee4159dca94eb79326b47fd32a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Single_detailed_truck/3dobjects/Materials/trailer-trailer_main_color.mat using Guid(b7d51ee4159dca94eb79326b47fd32a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43185fb0852c2f45fb8eaa4cdf8a5c6d') in 0.004876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Single_detailed_truck/3dobjects/Materials/truck-wheel.mat
+  artifactKey: Guid(172cad7119869f741af05a3244a4fae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Single_detailed_truck/3dobjects/Materials/truck-wheel.mat using Guid(172cad7119869f741af05a3244a4fae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fcdd6b634d62714e6605107b869be55') in 0.005690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Single_detailed_truck/3dobjects/Materials/trailer-alu_smooth.mat
+  artifactKey: Guid(39cd26f538c82244b94375407e8e5f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Single_detailed_truck/3dobjects/Materials/trailer-alu_smooth.mat using Guid(39cd26f538c82244b94375407e8e5f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e11ebb86e3c1023007d485fe34b0da4') in 0.008339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Single_detailed_truck/3dobjects/Materials/trailer-metal_dark.mat
+  artifactKey: Guid(a05683a4d61338740a1ceeb75f439213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Single_detailed_truck/3dobjects/Materials/trailer-metal_dark.mat using Guid(a05683a4d61338740a1ceeb75f439213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd937f6d517f88c91a4d68c9e066deec0') in 0.006253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Single_detailed_truck/3dobjects/Materials/truck-exhaust.mat
+  artifactKey: Guid(e45185205a8f278429f4a9afe487e7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Single_detailed_truck/3dobjects/Materials/truck-exhaust.mat using Guid(e45185205a8f278429f4a9afe487e7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd303106c377c695d27003acedcb0a101') in 0.007088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Single_detailed_truck/3dobjects/Materials/truck-plastic.mat
+  artifactKey: Guid(f08b9019e865f2e4088943576053d75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Single_detailed_truck/3dobjects/Materials/truck-plastic.mat using Guid(f08b9019e865f2e4088943576053d75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b0a1523f2641bf2885ad20d6887677') in 0.007258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Single_detailed_truck/3dobjects/Materials/trailer-trailer_floor.mat
+  artifactKey: Guid(249810e02b5b82e459309ff015c9d014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Single_detailed_truck/3dobjects/Materials/trailer-trailer_floor.mat using Guid(249810e02b5b82e459309ff015c9d014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005e03f653aeb5b5009f77ea7386ff91') in 0.007110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Single_detailed_truck/3dobjects/Materials/truck-main_color.mat
+  artifactKey: Guid(cf321d5c3036fdf47b1f39a7a8b18b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealisticCarControllerV3/Models/Vehicles/Truck/Single_detailed_truck/3dobjects/Materials/truck-main_color.mat using Guid(cf321d5c3036fdf47b1f39a7a8b18b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8667bf71e162bf7f27b943ca3514fd') in 0.006249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f0a3000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.391 seconds
+Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.275 seconds
+Domain Reload Profiling: 1666ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (187ms)
+		LoadAssemblies (219ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1276ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (728ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (629ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3586 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (31.8 KB). Loaded Objects now: 4145.
+Memory consumption went from 190.3 MB to 190.2 MB.
+Total: 5.778875 ms (FindLiveObjects: 0.239042 ms CreateObjectMapping: 0.103166 ms MarkObjects: 5.346917 ms  DeleteObjects: 0.088709 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f0a3000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.379 seconds
+Refreshing native plugins compatible for Editor in 1.56 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.064 seconds
+Domain Reload Profiling: 1444ms
+	BeginReloadAssembly (122ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (184ms)
+		LoadAssemblies (215ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1065ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (562ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (471ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3587 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 4148.
+Memory consumption went from 200.8 MB to 200.8 MB.
+Total: 4.265375 ms (FindLiveObjects: 0.193292 ms CreateObjectMapping: 0.083416 ms MarkObjects: 3.934042 ms  DeleteObjects: 0.053875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f0a3000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.358 seconds
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.075 seconds
+Domain Reload Profiling: 1434ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (176ms)
+		LoadAssemblies (204ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1076ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (549ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (458ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 1.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3587 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.8 KB). Loaded Objects now: 4151.
+Memory consumption went from 211.2 MB to 211.1 MB.
+Total: 5.018583 ms (FindLiveObjects: 0.206542 ms CreateObjectMapping: 0.088666 ms MarkObjects: 4.658833 ms  DeleteObjects: 0.063750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
